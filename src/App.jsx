@@ -7,12 +7,19 @@ import StudyPlannerPage from "./pages/StudyPlannerPage";
 import CareerPathwayPage from "./pages/CareerPathwayPage";
 import ProfilePage from "./pages/ProfilePage";
 import BurnoutCenterPage from "./pages/BurnoutCenterPage";
+import AboutPage from "./pages/AboutPage";
+import ContactPage from "./pages/ContactPage";
+import { PrivacyPage, TermsPage } from "./pages/LegalPages";
 
 // Each Route connects a URL to one page component.
 export default function App() {
   return (
     <Routes>
       <Route path="/" element={<LandingPage />} />
+      <Route path="/about" element={<AboutPage />} />
+      <Route path="/contact" element={<ContactPage />} />
+      <Route path="/privacy" element={<PrivacyPage />} />
+      <Route path="/terms" element={<TermsPage />} />
 
       {/* These pages share the same sidebar and top navigation. */}
       <Route element={<AppLayout />}>
