@@ -6,6 +6,7 @@ import AssignmentTrackerPage from "./pages/AssignmentTrackerPage";
 import StudyPlannerPage from "./pages/StudyPlannerPage";
 import CareerPathwayPage from "./pages/CareerPathwayPage";
 import ProfilePage from "./pages/ProfilePage";
+import BurnoutCenterPage from "./pages/BurnoutCenterPage";
 
 // Each Route connects a URL to one page component.
 export default function App() {
@@ -19,6 +20,7 @@ export default function App() {
         <Route path="/assignments" element={<AssignmentTrackerPage />} />
         <Route path="/study-planner" element={<StudyPlannerPage />} />
         <Route path="/career-pathway" element={<CareerPathwayPage />} />
+        <Route path="/burnout-center" element={<BurnoutCenterPage />} />
         <Route path="/profile" element={<ProfilePage />} />
       </Route>
 

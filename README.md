@@ -1,6 +1,16 @@
 # Campus Copilot
 
-Campus Copilot is a beginner-friendly student planning app built with React, Vite, and Tailwind CSS. It includes a landing page, dashboard, assignment tracker, study planner, career pathway simulator, and profile page.
+Campus Copilot is a modern student-success SaaS experience built with React, Vite, and Tailwind CSS. It combines academic planning, career exploration, and proactive wellness support in one responsive light/dark workspace.
+
+## Product highlights
+
+- A polished SaaS landing page with motion, product storytelling, success metrics, and student testimonials.
+- An academic dashboard for GPA, productivity, study streaks, weekly goals, semester progress, deadlines, and burnout risk.
+- An interactive assignment tracker with priorities, categories, filters, progress, list/grid views, and task creation.
+- A weekly study planner with color-coded focus sessions and AI schedule suggestions.
+- A career simulator driven by major and interests, with role matches, salary estimates, internships, skills, graduate programs, and a roadmap.
+- An AI-inspired Burnout Prediction Center with live sleep, stress, workload, and mood inputs plus personalized wellness recommendations.
+- Persistent light and dark modes and responsive navigation for desktop, tablet, and mobile.
 
 ## What is in this project?
 
@@ -76,7 +86,7 @@ Most styling appears directly in `className`. Shared patterns such as `page-card
 
 ### 5. React state powers interactions
 
-The assignment tracker uses `useState` to add assignments, search the list, and mark work complete. The career simulator uses the same idea to display the selected pathway. This sample data resets when the browser refreshes; a future version can connect it to a database.
+The assignment tracker uses `useState` to add assignments, search, filter, change views, and mark work complete. Career recommendations respond to majors and interests. The burnout model recalculates instantly as wellness inputs change. This sample data resets when the browser refreshes; a future version can connect it to a database.
 
 ## Beginner-friendly changes to try
 
