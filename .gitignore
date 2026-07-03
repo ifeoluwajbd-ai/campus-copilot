@@ -1,0 +1,17 @@
+# Packages installed on your computer
+node_modules/
+
+# Files created when the app is built
+dist/
+
+# Local Codex working files and downloadable archives
+outputs/
+work/
+
+# Local settings and editor files
+.env
+.env.local
+.DS_Store
+*.local
+.vscode/*
+!.vscode/extensions.json
